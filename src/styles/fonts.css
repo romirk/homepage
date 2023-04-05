@@ -1,0 +1,22 @@
+@import url("https://p.typekit.net/p.css?s=1&k=szp6rxv&ht=tk&f=49720&a=146968848&app=typekit&e=css");
+@import url('https://fonts.cdnfonts.com/css/nexa-bold');
+
+
+@font-face {
+    font-family: "belarius-poster";
+    src: url("https://use.typekit.net/af/e7148b/00000000000000007735fbaa/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/e7148b/00000000000000007735fbaa/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/e7148b/00000000000000007735fbaa/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+
+@font-face {
+    src: url("../../public/fonts/Nexa-Black.ttf") format("truetype");
+    font-family: "Nexa-Black";
+}
+
+.tk-belarius-poster {
+    font-family: "belarius-poster", sans-serif;
+}
