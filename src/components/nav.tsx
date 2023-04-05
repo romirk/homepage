@@ -5,7 +5,8 @@ import '../styles/nav.css'
 export function Navigation() {
     return (<Navbar bg="light" variant="light">
         <Container>
-            <Navbar.Brand className="unselectable" id="title">romir.</Navbar.Brand>
+            <Navbar.Brand className="unselectable" id="title">romir.<span
+                style={{color: "grey", display: "none"}}>eu</span></Navbar.Brand>
             <Nav className="ms-auto">
                 {/*<Nav.Link href="projects">projects</Nav.Link>*/}
                 <Nav.Link href="resume.pdf" target="_blank">resum&eacute;</Nav.Link>
