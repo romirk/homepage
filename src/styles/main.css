@@ -1,0 +1,39 @@
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width:  13ch;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: hsl(0, 0%, 20%);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+#main {
+    min-height: 50vh;
+}
+
+.typewriter {
+    width: fit-content;
+    /*position: relative;*/
+    color: hsl(0, 0%, 22%);
+    /*font-weight: bold !important;*/
+    /*font-family: "Anonymous Pro", monospace !important;*/
+    /*letter-spacing: 7px !important;*/
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    padding: 5px;
+    margin: auto;
+    /*background-color: black;*/
+    /*color: white;*/
+    animation: typewriter 1s steps(12) 1 normal both,
+    blinkTextCursor 700ms infinite;
+}
