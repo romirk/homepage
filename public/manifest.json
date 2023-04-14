@@ -4,11 +4,11 @@
   "name": "Romir Services B.V.",
   "icons": [
     {
-      "src": "img/romir-monogram.svg",
+      "src": "svg/romir-monogram.svg",
       "sizes": "64x64"
     },
     {
-      "src": "img/romir-wordmark.svg",
+      "src": "svg/romir-wordmark.svg",
       "sizes": "192x192 512x512"
     }
   ],

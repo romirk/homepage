@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@spectrum-css/button": "^9.0.14",
+    "@spectrum-css/page": "^5.0.20",
+    "@spectrum-css/vars": "^9.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,10 +13,8 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "animejs": "^3.2.1",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
-    "react-anime": "^4.1.1",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -46,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@types/animejs": "^3.1.7",
     "@types/react-helmet": "^6.1.6"
   }
 }
