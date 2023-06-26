@@ -16,8 +16,40 @@
     }
 }
 
+:root {
+    --text: hsl(0, 0%, 100%);
+}
+
 #main {
-    min-height: 50vh;
+    min-height: 100vh;
+    /*background-color: #ffdd00;*/
+    color: white;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#logobox {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    font-size: 5rem;
+}
+
+.title {
+    font-family: belarius-poster, serif;
+    /*font-size: 3rem;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*color: hsl(0, 0%, 22%);*/
+    color: var(--text);
+    mix-blend-mode: difference;
 }
 
 .typewriter {

@@ -1,14 +1,20 @@
 import React from "react";
-import {Container} from "react-bootstrap";
 import '../styles/main.css'
-
-function Jumbotron() {
-    return <Container>
-        <h1 className="typewriter">Coming soon.</h1>
-    </Container>;
+import Navigation from "./nav";
+function Logo() {
+    return <div className="title">
+        romir.
+    </div>;
 }
 
 export function Main() {
-    return <div id="main" className="m-auto p-5"><Jumbotron/></div>;
-
+    return <div id="main" className="m-auto">
+        <video autoPlay muted loop id="bg-video">
+            <source src={process.env.PUBLIC_URL + '/media/pexels.mp4'} type="video/mp4"/>
+        </video>
+        <Navigation/>
+        <div id="logobox" className="m-auto p-5">
+            <Logo/>
+        </div>
+    </div>;
 }
