@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/main.css'
 import Navigation from "./nav";
+
 function Logo() {
     return <div className="title">
         romir.

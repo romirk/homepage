@@ -17,3 +17,10 @@ mangoes:
       content: god prefers sparkling water
       stamp: 2023-02-07T10:30+05:30
       context: to francesca
+  - quote:
+      content: |
+        Do you ever just drink water
+        And then remember it was bottled in Belgium
+        I just had a panic attack
+      stamp: 2023-06-21T20:48+05:30
+      context: none

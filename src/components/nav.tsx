@@ -6,9 +6,6 @@ export default function Navigation() {
 
     return (
         <nav className="navigation">
-            {/*<a href="/" className="brand-name">*/}
-            {/*    romir.*/}
-            {/*</a>*/}
             <div
                 className={
                     isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
