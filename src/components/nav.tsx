@@ -13,13 +13,13 @@ export default function Navigation() {
             >
                 <ul>
                     <li>
-                        <a href="/projects">projects</a>
-                    </li>
-                    <li>
                         <a href="/resume.pdf" target="_blank">resume</a>
                     </li>
                     <li>
-                        <a href="/contact">contact</a>
+                        <a href="https://github.com/romirk" target="_blank">github</a>
+                    </li>
+                    <li>
+                        <a href="mailto:romir@romir.eu">contact</a>
                     </li>
                 </ul>
             </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import '../styles/main.css'
 import Navigation from "./nav";
+import Hero from "./hero";
 
 function Logo() {
-    return <div className="title">
+    return <div className="title unselectable">
         romir.
     </div>;
 }
@@ -14,6 +15,7 @@ export function Main() {
             <source src={process.env.PUBLIC_URL + '/media/pexels.mp4'} type="video/mp4"/>
         </video>
         <Navigation/>
+        <Hero/>
         <div id="logobox" className="m-auto p-5">
             <Logo/>
         </div>

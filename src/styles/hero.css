@@ -1,0 +1,16 @@
+#hero {
+    position: relative;
+    top: 40vh;
+    /*min-height: 60vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-shadow: 0 0 20px black;
+}
+/*#hero-bg{*/
+/*    height:100%;*/
+/*    width:100%;*/
+/*    opacity: 0.6;*/
+/*    background-color: black;*/
+/*}*/
