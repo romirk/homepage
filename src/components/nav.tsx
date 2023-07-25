@@ -16,7 +16,7 @@ export default function Navigation() {
                         <a href="/resume.pdf" target="_blank">resume</a>
                     </li>
                     <li>
-                        <a href="https://github.com/romirk" target="_blank">github</a>
+                        <a href="https://github.com/romirk" target="_blank" rel="noreferrer">github</a>
                     </li>
                     <li>
                         <a href="mailto:romir@romir.eu">contact</a>
