@@ -19,7 +19,7 @@ export default function Navigation() {
                         <a href="https://github.com/romirk" target="_blank" rel="noreferrer">github</a>
                     </li>
                     <li>
-                        <a href="mailto:romir@romir.eu">contact</a>
+                        <a href="mailto:r.kulshrestha@student.tudelft.nl">contact</a>
                     </li>
                 </ul>
             </div>
